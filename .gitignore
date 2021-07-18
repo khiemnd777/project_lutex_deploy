@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@khiemnd777 
-khiemnd777
-/
-project_lutex_deploy
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-project_lutex_deploy/.gitignore
-@khiemnd777
-khiemnd777 Initial commit
-Latest commit 6d8a778 2 minutes ago
- History
- 1 contributor
-104 lines (76 sloc)  1.57 KB
-  
 # Logs
 logs
 *.log
@@ -133,20 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete{"mode":"full","isActive":false}
-
 # Deployer
 user.config.json
 deploy.config.json
