@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lutex's CI/CD</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body onload="onload()">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 mt-3">
+          <h4>Lutex's CI/CD</h4>
+        </div>
+        <div class="col-sm-8 mt-3">
+          <span>Logging out then going to redirect to login page.</span>
+        </div>
+        <div class="col-sm-8 mt-3">
+          <div class="form-group">
+            <div id="message"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/scripts/auth.js"></script>
+    <script>
+      async function onload() {
+        logout();
+      }
+    </script>
+  </body>
+</html>
